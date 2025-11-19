@@ -2030,14 +2030,12 @@ INNER JOIN orders o ON c.customer_id = o.customer_id;
 
 *النتيجة:*
 
-```text
 customer_name    | order_date  | amount
 أحمد محمد       | 2024-01-15  |          5700.00
 فاطمة علي       | 2024-01-16  |          2200.00
 أحمد محمد       | 2024-01-18  |           300.00
 خالد السعدي     | 2024-01-20  |          1800.00
 نورة القحطاني   | 2024-01-22  |           150.00
-```
 
 **2. LEFT JOIN:**
 
@@ -2050,7 +2048,6 @@ LEFT JOIN orders o ON c.customer_id = o.customer_id;
 
 *النتيجة:*
 
-```text
 customer_name    | order_date  | amount
 أحمد محمد       | 2024-01-15  |          5700.00
 أحمد محمد       | 2024-01-18  |           300.00
@@ -2058,7 +2055,6 @@ customer_name    | order_date  | amount
 خالد السعدي     | 2024-01-20  |          1800.00
 نورة القحطاني   | 2024-01-22  |           150.00
 محمد الغامدي    |        NULL             | NULL
-```
 
 **3. JOIN مع ثلاثة جداول:**
 
